@@ -9,9 +9,11 @@ class TwoSum:
         :type target: int
         :rtype: List[int]
         """
+
         # 將list內的value存在dictionary的key，index存在dictionary的value
         # enumerate的作用為將iterable的物件組成一個索引序列，利用它可以獲得索引和值
         # in的作用為測試key是否存在dictionary中
+
         dic = {}
         for key, value in enumerate(nums):
             sol = target - value
