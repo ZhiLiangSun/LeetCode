@@ -19,5 +19,5 @@ class ReverseInteger:
         return ans if ans.bit_length() < 32 else 0
 
 
-answer = ReverseInteger
-print(answer.reverse(answer, -123))
+answer = ReverseInteger()
+print(answer.reverse(-123))

@@ -27,6 +27,6 @@ class TwoSum:
         #         return nums.index(num), nums.index((target - num))
 
 
-answer = TwoSum
+answer = TwoSum()
 
-print(answer.twoSum(answer, nums, target))
+print(answer.twoSum(nums, target))
